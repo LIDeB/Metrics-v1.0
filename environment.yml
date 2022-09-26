@@ -1,0 +1,17 @@
+name: Metrics
+channels:
+- rdkit
+- conda-forge
+- defaults
+dependencies:
+    - libgcc=5.2.0
+    - rdkit
+    - pip
+    - pip:
+        - pandas==1.0.1
+        - numpy==1.18.1
+        - sklearn
+        - streamlit
+        - streamlit_tags
+        - plotly==5.0.0
+        - protobuf~=3.19.0
